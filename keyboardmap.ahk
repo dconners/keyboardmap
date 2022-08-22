@@ -31,7 +31,52 @@ $RAlt::
 	}
 	else
 	{
-		SendInput, ^#{Right}				
+		SendInput, ^#{Right}
 	}
 	
 return
+
+; $RShift::
+; 	KeyWait, RShift, T0.2
+; 	if (ErrorLevel = 1)
+; 	{
+; 		SendInput, {RShift down}
+; 		KeyWait, RShift
+; 		SendInput, {RShift up}
+; 	}
+; 	else
+; 	{
+; 		SendInput, {End}				
+; 	}
+	
+; return
+
+; $LShift::
+; 	KeyWait, LShift, T0.2
+; 	if (ErrorLevel = 1)
+; 	{
+; 		SendInput, {LShift down}
+; 		KeyWait, LShift
+; 		SendInput, {LShift up}
+; 	}
+; 	else
+; 	{
+; 		SendInput, {Home}				
+; 	}
+	
+; return
+
+; $Capslock::
+; 	KeyWait, Capslock, T0.2
+; 	if (ErrorLevel = 1)
+; 	{
+; 		SendInput, {LControl down}
+; 		KeyWait, LControl
+; 		SendInput, {LControl up}
+; 	}
+; 	else
+; 	{
+; 		SendInput, {Capslock}				
+; 	}
+	
+; return
